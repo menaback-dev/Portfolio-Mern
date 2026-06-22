@@ -1,5 +1,5 @@
 import { skills } from "@/data/skills";
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
 
 export default function Skills() {
