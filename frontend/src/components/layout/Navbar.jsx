@@ -21,10 +21,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
         <Link
-            to="/"
-            className="font-bold text-2xl"
-            >
-            Mena.dev4
+          to="/"
+          className="flex items-center gap-2 shrink-0"
+          aria-label="Go to homepage"
+        >
+          <img
+            src="/logo.svg"
+            alt="Portfolio logo"
+            className="h-40 w-40 object-contain"
+          />
         </Link>
 
         {/* Desktop */}
