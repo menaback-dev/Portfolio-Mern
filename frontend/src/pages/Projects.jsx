@@ -33,8 +33,8 @@ export default function Projects() {
       </h1>
 
       <p className="text-muted-foreground mt-3">
-        A collection of backend systems, APIs, and
-        software solutions.
+        A collection of Frontend & Backend systems, APIs, and
+        Full-Stack software solutions.
       </p>
 
       {/* Filters */}

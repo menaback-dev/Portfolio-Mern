@@ -8,7 +8,7 @@ import { profile } from "@/data/profile";
 
 export default function Hero() {
   return (
-    <section className="min-h-[85vh] flex items-center py-15 relative overflow-hidden">
+    <section className="min-h-[85vh] flex items-center py-8 relative overflow-hidden">
       <div className="grid lg:grid-cols-2 gap-10 items-center w-full">
       <div
           className="

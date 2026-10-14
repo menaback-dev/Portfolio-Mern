@@ -1,26 +1,28 @@
 export const profile = {
   name: "Abdulmenan Amin",
-  role: "Backend Engineer",
-  headline: "Building scalable APIs with Django & FastAPI",
+  role: "Full Stack Software Developer",
+  headline: "Building scalable Web Apps with Angular and Asp.Net",
   bio: `
-  Backend developer focused on building secure, maintainable, and high-performance web applications.
-  Experienced with Django, Django REST Framework, FastAPI, PostgreSQL, and MySQL.
+  Full-Stack developer focused on building secure, maintainable, and high-performance web applications.
+  Experienced with Angular, Asp.NET core, EF Core, PostgreSQL.
   Passionate about clean architecture, API design, and scalable systems.
   `,
 
   techStack: [
-    "Django",
-    "DRF",
-    "FastAPI",
+    "Angular",
+    ".NET",
+    "ASP.NET",
     "PostgreSQL",
-    "MySQL",
+    "EF Core",
     "Docker",
   ],
 
-  yearsExperience: "2+",
+  yearsExperience: "0",
   projectsCompleted: "10+",
 
   email: "abdulmenanamin@gmail.com",
+
+  phone: "+251 900 049 734",
 
   github: "https://github.com/menaback-dev",
 

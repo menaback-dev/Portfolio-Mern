@@ -45,13 +45,13 @@ export default function About() {
             </h1>
 
             <p className="text-xl text-muted-foreground mt-3">
-              Backend Developer
+              Full-Stack Software Developer
             </p>
 
             <p className="mt-6 text-muted-foreground leading-8">
-              I build secure, scalable, and maintainable backend systems
-              using Django, Django REST Framework, FastAPI, PostgreSQL,
-              and MySQL. My focus is on API development, authentication,
+              I build secure, scalable, and maintainable Full-Stack systems
+              using Angular, Asp.NET and PostgreSQL.
+              My focus is on API development, authentication,
               database design, and software architecture.
             </p>
 
@@ -219,7 +219,7 @@ export default function About() {
             variant="outline"
             asChild
           >
-            <a href="/resume.pdf">
+            <a href="/Abdulmenan_Amin_CV-1.pdf">
               Download Resume
             </a>
           </Button>

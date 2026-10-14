@@ -1,4 +1,4 @@
-import { TbMail } from "react-icons/tb";
+import { TbMail, TbPhone } from "react-icons/tb";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { LuMapPin } from "react-icons/lu";
 
@@ -17,17 +17,17 @@ export default function ContactPage() {
           </h1>
 
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Have a project, freelance opportunity, or backend challenge?
+            Have a project, freelance opportunity, or Full or Part time Jobs?
             Get in touch.
           </p>
 
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-12">
+        <div className="grid lg:grid-cols-2 gap-12">
 
           {/* Contact Information */}
 
-          <div className="lg:col-span-2 space-y-6">
+          <div className="lg:col-span-1 space-y-6">
 
             <div className="border rounded-2xl p-6">
 
@@ -43,6 +43,24 @@ export default function ContactPage() {
 
               <p className="mt-3 text-muted-foreground break-all">
                 {profile.email}
+              </p>
+
+            </div>
+
+            <div className="border rounded-2xl p-6">
+
+              <div className="flex items-center gap-3">
+
+                <TbPhone size={20} />
+
+                <h3 className="font-semibold">
+                  Phone
+                </h3>
+
+              </div>
+
+              <p className="mt-3 text-muted-foreground break-all">
+                {profile.phone}
               </p>
 
             </div>
@@ -70,6 +88,9 @@ export default function ContactPage() {
 
             </div>
 
+          </div>
+
+          <div className="lg:col-span-1 space-y-6">
             <div className="border rounded-2xl p-6">
 
               <div className="flex items-center gap-3">
@@ -109,7 +130,6 @@ export default function ContactPage() {
               </a>
 
             </div>
-
           </div>
 
         </div>

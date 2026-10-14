@@ -49,7 +49,7 @@ export default function Navbar() {
             size="sm"
             >
             <a
-                href="/resume.pdf"
+                href="/Abdulmenan_Amin_CV-1.pdf"
                 target="_blank"
             >
                 Resume
@@ -88,7 +88,7 @@ export default function Navbar() {
                 ))}
 
                 <Button className="mt-4">
-                  <a href="/resume.pdf" target="_blank">Resume</a>
+                  <a href="/Abdulmenan_Amin_CV-1.pdf" target="_blank">Resume</a>
                 </Button>
               </div>
             </SheetContent>

@@ -1,22 +1,16 @@
 export const skills = {
+  Frontend:[
+    "Angular",
+  ],
   Backend: [
-    "Django",
-    "Django REST Framework",
-    "FastAPI",
-    "Python",
-    "REST APIs",
+    "Asp.NET Core",
+    "EF Core",
   ],
   Databases: [
     "PostgreSQL",
-    "MySQL",
-    "Redis",
-    "MongoDB",
   ],
   Devops: [
     "Docker",
-    "Linux",
-    "Nginx",
-    "CI/CD",
   ],
   Tools: [
     "Git",

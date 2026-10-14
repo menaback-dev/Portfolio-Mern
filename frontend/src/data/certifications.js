@@ -10,10 +10,4 @@ export const certifications = [
     issuer: "ALX",
     year: "2025",
   },
-
-  {
-    title: "Git and GitHub",
-    issuer: "Self Learning / Course",
-    year: "2025",
-  },
 ];

@@ -9,7 +9,7 @@ export default function FeaturedProjects() {
       </h2>
 
       <p className="text-muted-foreground mt-2">
-        Selected backend systems and APIs
+        Selected Full-Stack Projects
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">

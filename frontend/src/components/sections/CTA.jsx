@@ -9,7 +9,7 @@ export default function CTA() {
       </h2>
 
       <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-        Open to backend development opportunities,
+        Open to Full-Stack development opportunities,
         freelance projects, and technical collaborations.
       </p>
 
@@ -17,7 +17,12 @@ export default function CTA() {
         size="lg"
         className="mt-8"
       >
-        Get In Touch
+        <a
+            href="/contact"
+        >
+          Get In Touch
+        </a>
+        
       </Button>
 
     </section>
